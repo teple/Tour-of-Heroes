@@ -1,0 +1,18 @@
+div('*ngIf'="hero")
+  h2 {{hero.name}} details!
+  div
+    label id:
+    a {{hero.id}}
+  div
+    label name: 
+    input(
+      '[(ngModel)]'="hero.name"
+      placeholder="name"
+    )
+  button(
+    '(click)'="save()"
+  ) Save
+  button(
+    '(click)'="goBack()"
+  ) Back
+  
