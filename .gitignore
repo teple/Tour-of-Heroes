@@ -40,3 +40,8 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# compiled HTML, CSS files
+/src/app/*.css
+/src/app/*.html
+/src/app/*.origin
